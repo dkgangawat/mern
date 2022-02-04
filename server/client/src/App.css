@@ -1,0 +1,156 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+/* body{
+  background-color: rgb(15, 8, 8);
+} */
+
+/* Header */
+.header{
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(black, rgb(70, 61, 61));
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.header li{
+  list-style: none;
+  float: left;
+  margin: 5px;
+  
+}
+.header .accont-mob{
+  display: none;
+}
+.header a{
+  text-decoration: none;
+  color: #ffff;
+  cursor: pointer;
+}
+.header a:hover{
+  color: rgb(107, 107, 107);
+}
+.header .account-icon{
+  display: block;
+ height: 40px;
+ width: 40px;
+ float: right;
+}
+/* card */
+.card{
+  display: inline-block;
+  width: 225px;
+  margin: 2px;
+  height: 400px;
+  box-shadow: gray 5px 5px 10px;
+  /* background: rgb(10, 2, 56); */
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.card .image{
+  height: 250px;
+  margin-top: 10.5px;
+  border-radius: 5px;
+}
+.card .content{
+  margin-left: 10px;
+  width: 200px;
+  margin: auto;
+color: #ffff;
+text-align: center;
+overflow: hidden;
+}
+/* .card:hover{
+  width: 350px;
+ height: 250px ;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+} */
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* login */
+.log-box{
+  align-self: center;
+  display: flex;
+  background-color: #ffff;
+  width: 450px;
+  height: 500px;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid rgb(172, 154, 154);
+  box-shadow: gray 2px -1px 10px;
+}
+.log-box .account-icon{
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+
+}
+input{
+   display: block;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+label{
+  font-size: 20px;
+}
+form h1{
+  margin: 0px;
+  text-align: center;
+}
+.btn-sucess{
+  display: block;
+  height: 40px;
+  width: 300px;
+margin: auto;
+margin-top: 30px;
+border-radius: 10px;
+background-color: rgb(35, 155, 35);
+outline: none;
+}
+form p{
+  color: gray;
+  text-align: center;
+  cursor: pointer;
+}
+@media only screen and (max-width:576px ){
+  .header{
+    width: 100%;
+    height: 180px;
+  }
+.header li{
+  display: block;
+width: 100%;
+color: black;
+}
+.header .account-icon{
+  display: none;
+}
+.header .accont-mob{
+  display: block;
+}
+.log-box{
+  border: none;
+  box-shadow: none;
+  width: 100%;
+}
+input{
+  width: 100%;
+}
+.btn-sucess{
+  width: 100%;
+}
+
+}

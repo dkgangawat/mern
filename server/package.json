@@ -1,0 +1,18 @@
+{
+    "name": "database",
+    "version": "1.0.0",
+    "description": "",
+    "main": "conn.js",
+    "scripts": {
+        "start": "node ./src/router/app.js",
+        "dev": "nodemon ./src/router/app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.2",
+        "hbs": "^4.2.0",
+        "mongoose": "^6.1.4",
+        "validator": "^13.7.0"
+    }
+}
